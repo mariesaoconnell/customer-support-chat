@@ -107,17 +107,17 @@ export const htmlCode = `
             <div class="column-inner dorik-column-7sc812n1  1/1">
               <div class="dorik-wrapper dorik-heading-wahmdk55-wrapper ">
                 <h1 class="dorik-heading dorik-heading-wahmdk55 ">
-                  <span>The New Smart Finance & Payment Platform</span>
+                  <span>This is a Support Chat Demo</span>
                 </h1>
               </div>
               <div class="dorik-text dorik-text-s2wjxpc0 ">
-                Network effects pitch holy grail niche market non-disclosure
-                agreement long tail assets. Bandwidth branding seed round
-                vesting period technology.
+                Right now you are viewing as a customer, to change roles click the button below!
               </div>
               <div class="dorik-button-ra0ilohg-wrapper  ">
-                <button class="dorik-btn dorik-button-ra0ilohg ">
-                  Contact Sales
+                <button class="dorik-btn dorik-button-ra0ilohg">
+                  <a href='http://localhost:3000/support' id="btn-admin-view">
+                    View as Admin
+                  </a>
                 </button>
               </div>
             </div>
@@ -1167,5 +1167,4 @@ export const htmlCode = `
       })();
     </script>
 </div>
-`
-
+`;
